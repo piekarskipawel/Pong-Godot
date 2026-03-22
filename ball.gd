@@ -38,7 +38,7 @@ func _physics_process(delta):
 		direction = direction.bounce(normal)
 		
 		# MAGIA: Natychmiastowe odepchnięcie piłki na zewnątrz, żeby się nie przykleiła!
-		position += normal * 3.0 
+		position += normal * 5.0 
 		
 		speed += 20.0 
 		$BounceSound.play()

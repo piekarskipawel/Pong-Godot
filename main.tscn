@@ -30,7 +30,7 @@ color = Color(0.34901962, 0.34901962, 0.34901962, 0.58431375)
 position = Vector2(28, 372)
 
 [node name="paddle2" parent="." unique_id=352377151 instance=ExtResource("1_0xm2m")]
-position = Vector2(1132, 362)
+position = Vector2(1117, 367)
 up_action = "p2_up"
 down_action = "p2_down"
 
